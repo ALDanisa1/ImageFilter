@@ -98,7 +98,7 @@ public class MedianFilterSerial {
         Collections.sort(green_pixels);
         Collections.sort(blue_pixels);
 
-        //finding the median
+
         int median_red = red_pixels.get((red_pixels.size() + 1) / 2);
         int median_green = green_pixels.get((green_pixels.size() + 1) / 2);
         int median_blue = blue_pixels.get((blue_pixels.size() + 1) / 2);
